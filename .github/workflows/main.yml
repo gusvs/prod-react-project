@@ -18,7 +18,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: install modules
-        run: npm i --legacy-peer-deps
+        run: npm i --force
         # run: npm ci
       - name: Cache deps
         uses: actions/cache@v3
@@ -45,7 +45,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: install modules
-        run: npm i
+        run: npm i --force
       - name: linting css
         run: npm run lint:scss
 
@@ -66,7 +66,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: install modules
-        run: npm i
+        run: npm i --force
       - name: unit testing
         run: npm run test:unit
 
@@ -87,7 +87,7 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
       - name: install modules
-        run: npm i
+        run: npm i --force
       - name: build production project
         run: npm run build:prod
       - name: build storybook
