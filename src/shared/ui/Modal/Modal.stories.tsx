@@ -30,3 +30,11 @@ export const Dark: Story = {
     },
 };
 Dark.decorators = [ThemeDecorator(Theme.DARK)];
+
+export const Orange: Story = {
+    args: {
+        isOpen: true,
+        children: 'Lorem ipsum dolor sit amet',
+    },
+};
+Orange.decorators = [ThemeDecorator(Theme.ORANGE)];
