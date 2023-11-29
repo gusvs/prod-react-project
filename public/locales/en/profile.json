@@ -11,5 +11,12 @@
   "Ваш возраст": "Your age",
   "Имя пользователя": "Username",
   "Введите имя пользователя": "Input username",
-  "Введите ссылку на аватар": "Input avatar link"
+  "Введите ссылку на аватар": "Input avatar link",
+  "Укажите валюту": "Choose currency",
+  "Укажите страну": "Choose country",
+  "Имя и фамилия обязательны": "First and last name are required",
+  "Данные не указаны": "Data not provided",
+  "Некорректный возраст": "Incorrect age",
+  "Некорректный регион": "Invalid region",
+  "Серверная ошибка при сохранении": "Server error when saving"
 }

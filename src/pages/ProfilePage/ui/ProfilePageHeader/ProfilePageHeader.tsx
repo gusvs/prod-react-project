@@ -16,7 +16,7 @@ export const ProfilePageHeader = (props: ProfilePageHeaderProps) => {
     const {
         className,
     } = props;
-    const { t } = useTranslation();
+    const { t } = useTranslation('profile');
 
     const readonly = useSelector(getProfileReadonly);
     const dispatch = useAppDispatch();
