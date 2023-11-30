@@ -10,6 +10,8 @@
   "throw error": "throw error",
   "Главная": "Main",
   "О сайте": "About us",
+  "Профиль": "Profile",
+  "Статьи": "Articles",
   "Переключить": "Toggle",
   "Короткий язык": "En",
   "Войти": "Login",
@@ -19,6 +21,5 @@
   "Введите пароль": "Enter password",
   "Форма авторизации": "Auth form",
   "Вы ввели неверный логин или пароль": "Uncorrect username or password",
-  "Выйти": "Logout",
-  "Профиль": "Profile"
+  "Выйти": "Logout"
 }
