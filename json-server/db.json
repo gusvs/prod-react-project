@@ -19,7 +19,9 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "26.02.2022",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -100,6 +102,18 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": "1",
+      "text": "hello world",
+      "id": "50Pd6CN"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "dfghdfg",
+      "id": "fs2UOfp"
     }
   ],
   "users": [
@@ -118,14 +132,28 @@
       "avatar": "https://pic.rutubelist.ru/user/3b/27/3b2758ad5492a76b578f7ee072e4e894.jpg"
     }
   ],
-  "profile": {
-    "first": "Vitaliy",
-    "lastname": "Guselnikov",
-    "age": 36,
-    "currency": "RUB",
-    "country": "Russia",
-    "city": "Moscow",
-    "username": "gusvs",
-    "avatar": "https://pic.rutubelist.ru/user/3b/27/3b2758ad5492a76b578f7ee072e4e894.jpg"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Vitaliy",
+      "lastname": "Guselnikov",
+      "age": 36,
+      "currency": "RUB",
+      "country": "Russia",
+      "city": "Moscow",
+      "username": "gusvs",
+      "avatar": "https://pic.rutubelist.ru/user/3b/27/3b2758ad5492a76b578f7ee072e4e894.jpg"
+    },
+    {
+      "id": "2",
+      "first": "second user",
+      "lastname": "second",
+      "age": 30,
+      "currency": "EUR",
+      "country": "Kazahstan",
+      "city": "New York",
+      "username": "user",
+      "avatar": "https://pic.rutubelist.ru/user/3b/27/3b2758ad5492a76b578f7ee072e4e894.jpg"
+    }
+  ]
 }

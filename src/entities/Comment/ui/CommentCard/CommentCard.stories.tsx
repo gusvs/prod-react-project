@@ -1,42 +1,39 @@
 import { Meta, StoryObj } from '@storybook/react';
 import { ThemeDecorator } from 'shared/config/storybook/ThemeDecorator/ThemeDecorator';
 import { Theme } from 'app/providers/ThemeProvider';
-import { CommentList } from './CommentList';
+import { CommentCard } from './CommentCard';
 
 const meta = {
-    title: 'entities/Comment/CommentList',
-    component: CommentList,
+    title: 'entities/Comment/CommentCard',
+    component: CommentCard,
     parameters: {},
     argTypes: {
         // @ts-ignore
         backgroundColor: { control: 'color' },
     },
     args: {},
-} satisfies Meta<typeof CommentList>;
+} satisfies Meta<typeof CommentCard>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Primary: Story = {
     args: {
-        comments: [
-            {
-                id: '1',
-                text: 'hello world',
-                user: { id: '1', username: 'Vasya' },
-            },
-            {
-                id: '2',
-                text: 'Comment 2',
-                user: { id: '1', username: 'Petya' },
-            },
-        ],
+        comment: {
+            id: '1',
+            text: 'hello world',
+            user: { id: '1', username: 'Vasya' },
+        },
     },
 };
 
 export const Loading: Story = {
     args: {
-        comments: [],
+        comment: {
+            id: '1',
+            text: 'hello world',
+            user: { id: '1', username: 'Vasya' },
+        },
         isLoading: true,
     },
 };
