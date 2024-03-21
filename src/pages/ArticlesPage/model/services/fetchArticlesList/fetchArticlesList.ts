@@ -11,13 +11,13 @@ import {
     getArticlesPageType,
 } from '../../selectors/articlesPageSelectors';
 
-interface fetchArticlesListProps {
-    replace?: boolean
+interface FetchArticlesListProps {
+    replace?: boolean;
 }
 
 export const fetchArticlesList = createAsyncThunk<
     Article[],
-    fetchArticlesListProps,
+    FetchArticlesListProps,
     ThunkConfig<string>
 >(
     'articlesPage/fetchArticlesList',
